@@ -179,7 +179,7 @@ void setup() {
   pinMode(7, INPUT_PULLUP); // 시작 버튼 : 조이스틱 클릭
   for(int i = 0; i < 4; i++) {
     lc.shutdown(i, false);
-    lc.setIntensity(i, 2);
+    lc.setIntensity(i, 5);
     lc.clearDisplay(i);
   }
   spawn_block();
